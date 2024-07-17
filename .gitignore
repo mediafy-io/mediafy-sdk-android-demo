@@ -1,0 +1,12 @@
+.gradle
+.idea
+
+generated
+build
+libs
+
+fastlane/README.md
+fastlane/report.xml
+
+local.properties
+*.asc

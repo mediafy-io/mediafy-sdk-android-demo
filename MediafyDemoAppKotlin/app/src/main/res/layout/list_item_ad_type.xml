@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Mediafy SDK
+  ~
+  ~ Copyright 2024 Mars Technologies Ltd. All rights reserved.
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        tools:context="com.mediafy.demo.kotlin.activities.MainActivity">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</layout>
