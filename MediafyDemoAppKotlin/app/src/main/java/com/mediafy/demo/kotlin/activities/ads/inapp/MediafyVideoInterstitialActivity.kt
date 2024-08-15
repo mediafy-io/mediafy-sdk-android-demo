@@ -67,7 +67,7 @@ class MediafyVideoInterstitialActivity : BaseAdActivity() {
                     e: MediafyAdException,
                 ) {
                     // Called when ad failed to load
-                    Log.e(TAG, "Ad failed to load: " + e.message, e)
+                    Log.e(TAG, "Ad failed to load: " + e.message)
                 }
 
                 override fun onAdClicked(adUnit: MediafyInterstitialAdUnit) {

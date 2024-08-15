@@ -68,7 +68,7 @@ class MediafyVideoBannerActivity : BaseAdActivity() {
 
                 override fun onAdFailed(mediafyAdView: MediafyAdView, e: MediafyAdException) {
                     // Called when ad failed to load or parse
-                    Log.e(TAG, "Ad failed to load: " + e.message, e)
+                    Log.e(TAG, "Ad failed to load: " + e.message)
                 }
 
                 override fun onAdDisplayed(mediafyAdView: MediafyAdView) {

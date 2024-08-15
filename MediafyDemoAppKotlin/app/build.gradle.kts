@@ -42,9 +42,9 @@ android {
 }
 
 dependencies {
-    implementation("com.mediafy:mediafy-sdk:2.4.4")
-    implementation("com.mediafy:mediafy-sdk-applovin-adapters:2.4.4")
-    implementation("com.mediafy:mediafy-sdk-google-adapters:2.4.4")
+    implementation("com.mediafy:mediafy-sdk:2.4.5")
+    implementation("com.mediafy:mediafy-sdk-applovin-adapters:2.4.5")
+    implementation("com.mediafy:mediafy-sdk-google-adapters:2.4.5")
 
     // Default
     implementation("androidx.core:core-ktx:1.13.1")

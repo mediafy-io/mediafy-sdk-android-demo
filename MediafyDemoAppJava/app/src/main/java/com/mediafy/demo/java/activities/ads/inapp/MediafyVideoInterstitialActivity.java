@@ -71,7 +71,7 @@ public class MediafyVideoInterstitialActivity extends BaseAdActivity {
             @Override
             public void onAdFailed(MediafyInterstitialAdUnit adUnit, MediafyAdException e) {
                 // Called when ad failed
-                Log.e(TAG, "Ad failed to load: " + e.getMessage(), e);
+                Log.e(TAG, "Ad failed to load: " + e.getMessage());
             }
 
             @Override

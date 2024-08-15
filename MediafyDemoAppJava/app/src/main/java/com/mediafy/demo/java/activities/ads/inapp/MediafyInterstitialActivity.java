@@ -68,7 +68,7 @@ public class MediafyInterstitialActivity extends BaseAdActivity {
             @Override
             public void onAdFailed(MediafyInterstitialAdUnit adUnit, MediafyAdException e) {
                 // Called when ad failed to load
-                Log.e(TAG, "Ad failed to load: " + e.getMessage(), e);
+                Log.e(TAG, "Ad failed to load: " + e.getMessage());
             }
 
             @Override
